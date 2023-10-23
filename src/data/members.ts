@@ -11,6 +11,7 @@ const membersInfo = [
     curiosity: '',
     photo: AdailsonPhoto,
     avatar: AdailsonAvatar,
+    link: '/projeto-csm-2023/integrantes/adailson'
   },
   {
     name: 'João Victor',
@@ -20,6 +21,7 @@ const membersInfo = [
     curiosity: '',
     photo: JoaoVictorPhoto,
     avatar: JoaoVictorAvatar,
+    link: '/projeto-csm-2023/integrantes/joao-victor'
   },
   {
     name: 'Marcelo',
@@ -29,6 +31,7 @@ const membersInfo = [
     curiosity: '',
     photo: MarceloPhoto,
     avatar: MarceloAvatar,
+    link: '/projeto-csm-2023/integrantes/marcelo'
   },
   {
     name: 'Mariana',
@@ -38,6 +41,7 @@ const membersInfo = [
     curiosity: 'Mergulhadora certificada e crescente interesse por RPG.',
     photo: MarianaPhoto,
     avatar: MarianaAvatar,
+    link: '/projeto-csm-2023/integrantes/mariana'
   },
   {
     name: 'Renan',
@@ -47,6 +51,7 @@ const membersInfo = [
     curiosity: '',
     photo: RenanPhoto,
     avatar: RenanAvatar,
+    link: '/projeto-csm-2023/integrantes/renan'
   },
 ];
 
