@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <HashRouter basename='/projeto-csm-2023'>
+    <HashRouter>
       <App />
     </HashRouter>
   </React.StrictMode>

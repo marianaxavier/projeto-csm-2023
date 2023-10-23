@@ -8,9 +8,9 @@ import Link from '@mui/material/Link';
 import logo from '../../assets/ufabc_logo.png';
 
 const pages = [
-  { name: 'Integrantes', link: '/projeto-csm-2023/integrantes' },
-  { name: 'Relatórios', link: '/projeto-csm-2023/relatorios' },
-  { name: 'Projeto Extensionista', link: '/projeto-csm-2023/extensao' },
+  { name: 'Integrantes', link: '/projeto-csm-2023/#/integrantes' },
+  { name: 'Relatórios', link: '/projeto-csm-2023/#/relatorios' },
+  { name: 'Projeto Extensionista', link: '/projeto-csm-2023/#/extensao' },
 ];
 
 const ResponsiveAppBar = () => {

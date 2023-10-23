@@ -1,7 +1,7 @@
 {
   "name": "projeto-csm-2023",
   "version": "0.1.0",
-  "homepage": "https://marianaxavier.github.io/projeto-csm-2023",
+  "homepage": "https://marianaxavier.github.io/projeto-csm-2023/#",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
