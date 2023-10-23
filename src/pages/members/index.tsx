@@ -1,0 +1,6 @@
+export { default as Members } from './Members'
+export { default as AdailsonPage } from './adailson'
+export { default as JoaoVictorPage } from './joao-victor'
+export { default as MarceloPage } from './marcelo'
+export { default as MarianaPage } from './mariana'
+export { default as RenanPage } from './renan'
