@@ -1,0 +1,102 @@
+.container-mari {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Optima", sans-serif;
+
+  h1 {
+    font-size: 32px;
+    color: #DB2763;
+  }
+
+  h2 {
+    color: #B0DB43;
+  }
+
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  p {
+    color: #594c54;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  a {
+    color: #C492B1;
+    text-align: justify;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .overlay-avatar {
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+    width: 100px;
+    height: auto;
+  }
+
+  .overlay-arrow {
+    position: absolute;
+    bottom: 75px;
+    right: 150px;
+    width: 100px;
+    height: auto;
+  }
+
+  .small-explanation {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    top: 25px;
+    right: 25px;
+    width: 200px;
+  }
+
+  .normal-image {
+    width: 800px;
+    height: auto;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .overlay-avatar-mari {
+    max-height: 100px !important;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+    width: 30%;
+  }
+
+  .profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+  }
+
+  .video-container {
+    margin-top: 20px;
+  }
+}
