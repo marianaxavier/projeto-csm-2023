@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.54f0fd68.js",
+    "main.js": "/projeto-csm-2023/static/js/main.caa3a2ab.js",
     "static/media/parapente.mp4": "/projeto-csm-2023/static/media/parapente.5920dd70a567a381eb27.mp4",
     "static/media/mari_foto.jpeg": "/projeto-csm-2023/static/media/mari_foto.e3eb110401df13e008e7.jpeg",
     "static/media/renan_foto.jpeg": "/projeto-csm-2023/static/media/renan_foto.76864c844e88026fe043.jpeg",
@@ -22,10 +22,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.54f0fd68.js.map": "/projeto-csm-2023/static/js/main.54f0fd68.js.map"
+    "main.caa3a2ab.js.map": "/projeto-csm-2023/static/js/main.caa3a2ab.js.map"
   },
   "entrypoints": [
     "static/css/main.1f761383.css",
-    "static/js/main.54f0fd68.js"
+    "static/js/main.caa3a2ab.js"
   ]
 }
