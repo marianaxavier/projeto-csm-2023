@@ -48,7 +48,7 @@ const ResponsiveAppBar = () => {
                 variant="h6"
                 noWrap
                 component="a"
-                href="#app-bar-with-responsive-menu"
+                href="/projeto-csm-2023/#/integrantes"
                 sx={{
                   mr: 6,
                   ml: 2,

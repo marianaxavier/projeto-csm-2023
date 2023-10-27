@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/home/home';
 import './App.css';
 import Header from './components/header';
 import { Members, AdailsonPage, JoaoVictorPage, MarceloPage, MarianaPage, RenanPage } from './pages/members';
@@ -12,8 +11,7 @@ function App() {
       <Header/>
       <Container fixed>
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
+          <Route index element={<Members />} />
           <Route path="integrantes" element={<Members />} />
           <Route path="integrantes/adailson" element={<AdailsonPage />} />
           <Route path="integrantes/joao-victor" element={<JoaoVictorPage />} />
