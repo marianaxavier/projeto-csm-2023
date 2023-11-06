@@ -1,0 +1,13 @@
+export { default as AdailsonCelular } from './Adailson.JPG';
+export { default as GroupCelular } from './Grupo.jpeg';
+export { default as MarceloCelular } from './Marcelo.JPG';
+export { default as MariCelular } from './Mari.JPG';
+export { default as RenanCelular } from './Renan.JPG';
+export { default as LentoCelular480 } from './lento_celular_480.mp4';
+export { default as LentoCelular540 } from './lento_celular_540.mp4';
+export { default as LentoCelular720 } from './lento_celular_720.mp4';
+export { default as LentoCelular } from './lento.mp4';
+export { default as RapidoCelular480 } from './rapido_celular_480.mp4';
+export { default as RapidoCelular540 } from './rapido_celular_540.mp4';
+export { default as RapidoCelular720 } from './rapido_celular_720.mp4';
+export { default as RapidoCelular } from './rapido.mp4';
