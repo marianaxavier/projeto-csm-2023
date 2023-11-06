@@ -12,7 +12,7 @@ const TextImage = ({ image, subtitle, imageNumber, height, width }: TextImagePro
   let subtitlePrefix = imageNumber && subtitle ? `Imagem ${imageNumber} - ` : '';
   return (
     <>
-      <img src={image} alt={subtitle} height={height} width={width}/>
+      <img src={image} alt={subtitle} height={height || 'auto'} width={width || 600}/>
       <p style={{fontSize: '85%'}}><b>{subtitlePrefix}</b>{subtitle}</p>
     </>
   )
