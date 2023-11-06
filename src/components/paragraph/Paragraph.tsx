@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import { Typography } from "@mui/material";
 
 type ParagraphProps = {
-  children: string;
+  children: ReactNode;
 }
 
 const Paragraph = ({ children }: ParagraphProps) => {
