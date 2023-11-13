@@ -8,6 +8,7 @@ import { RGBAdailson, RGBGrupo, RGBJoaoVictor, RGBMarcelo, RGBMari, RGBRenan } f
 import { YCrCbAndHSVAdailson, YCrCbAndHSVGrupo, YCrCbAndHSVJoaoVictor, YCrCbAndHSVMarcelo, YCrCbAndHSVMari, YCrCbAndHSVRenan } from '../../../assets/reports/report3/ycrcb-and-hsv';
 import { YCrCbChannelsAdailson, YCrCbChannelsGrupo, YCrCbChannelsJoaoVictor, YCrCbChannelsMarcelo, YCrCbChannelsMari, YCrCbChannelsRenan } from '../../../assets/reports/report3/ycrcb-channels';
 import { CompressionAdailson, CompressionJoaoVictor, CompressionMarcelo, CompressionMari, CompressionRenan, CompressionGrupo } from '../../../assets/reports/report3/compression';
+import { CosineTransformAdailson, CosineTransformJoaoVictor, CosineTransformMarcelo, CosineTransformMari, CosineTransformRenan, CosineTransformGrupo } from '../../../assets/reports/report3/cossine-transform';
 
 const Report3 = () => {
   return (
@@ -137,13 +138,13 @@ const Report3 = () => {
         de saída, a imagem a ser salva e o nível de compressão, que varia de 0 a 100. Quanto maior o nível de de
         compressão (mais próximo de 0), maior a perda de qualidade da imagem. Abaixo é possível ver a diferença entre
         umas imagem com níveis de compressão 95 (valor padrão), 25 e 5.
-        <TextImage image={CompressionAdailson} imageNumber={27} subtitle='Foto do Adailson com nível de compressão 95, 25 e 5.' width={1100}/>
-        <TextImage image={CompressionJoaoVictor} imageNumber={28} subtitle='Foto do João Victor com nível de compressão 95, 25 e 5.' width={1100}/>
-        <TextImage image={CompressionMarcelo} imageNumber={29} subtitle='Foto do Marcelo com nível de compressão 95, 25 e 5.' width={1100}/>
-        <TextImage image={CompressionMari} imageNumber={30} subtitle='Foto da Mariana com nível de compressão 95, 25 e 5.' width={1100}/>
-        <TextImage image={CompressionRenan} imageNumber={31} subtitle='Foto do Renan com nível de compressão 95, 25 e 5.' width={1100}/>
-        <TextImage image={CompressionGrupo} imageNumber={32} subtitle='Foto do grupo com nível de compressão 95, 25 e 5.' width={1100}/>
       </Paragraph>
+      <TextImage image={CompressionAdailson} imageNumber={27} subtitle='Foto do Adailson com nível de compressão 95, 25 e 5.' width={1100}/>
+      <TextImage image={CompressionJoaoVictor} imageNumber={28} subtitle='Foto do João Victor com nível de compressão 95, 25 e 5.' width={1100}/>
+      <TextImage image={CompressionMarcelo} imageNumber={29} subtitle='Foto do Marcelo com nível de compressão 95, 25 e 5.' width={1100}/>
+      <TextImage image={CompressionMari} imageNumber={30} subtitle='Foto da Mariana com nível de compressão 95, 25 e 5.' width={1100}/>
+      <TextImage image={CompressionRenan} imageNumber={31} subtitle='Foto do Renan com nível de compressão 95, 25 e 5.' width={1100}/>
+      <TextImage image={CompressionGrupo} imageNumber={32} subtitle='Foto do grupo com nível de compressão 95, 25 e 5.' width={1100}/>
       <Paragraph>
         A perda de qualidade da imagem é perceptível, em especial para os níveis de compressão 5, em que é possível ver
         alterações até nas cores da imagem. Para o nível de compressão 25, a perda de qualidade é menor, mas ainda
@@ -209,9 +210,21 @@ const Report3 = () => {
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Transformada Discreta de Cosseno</Typography>
       <Paragraph>
         Por fim, selecionamos um cloco de 8x8 no centro das imagens, aplicamos a DCT  e realizamos a manipulação manual
-        dos coeficientes para zerar componentes AC (alternadas) da diagonal.
+        dos coeficientes para zerar componentes AC (alternadas) da diagonal. Gerando as imagens a seguir, onde é possível
+        comparar o trecho 8x8 original com o trecho 8x8 após a DCT.
       </Paragraph>
+      <TextImage image={CosineTransformAdailson} imageNumber={33} subtitle='Região central (8x8) da foto do Adailson antes e depois da reconstrução manual' width={800}/>
+      <TextImage image={CosineTransformJoaoVictor} imageNumber={34} subtitle='Região central (8x8) da foto do João Victor antes e depois da reconstrução manual' width={800}/>
+      <TextImage image={CosineTransformMarcelo} imageNumber={35} subtitle='Região central (8x8) da foto do Marcelo antes e depois da reconstrução manual' width={800}/>
+      <TextImage image={CosineTransformMari} imageNumber={36} subtitle='Região central (8x8) da foto da Mariana antes e depois da reconstrução manual' width={800}/>
+      <TextImage image={CosineTransformRenan} imageNumber={37} subtitle='Região central (8x8) da foto do Renan antes e depois da reconstrução manual' width={800}/>
+      <TextImage image={CosineTransformGrupo} imageNumber={38} subtitle='Região central (8x8) da foto do grupo antes e depois da reconstrução manual' width={800}/>
 
+      <Paragraph>
+        Apesar de existir diferenças entre as imagens, é possível ver que a imagem reconstruída é bem parecida com a
+        imagem original, mostrando que a DCT é uma técnica eficiente para compressão de imagens, que não perde muitas
+        informações.
+      </Paragraph>
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>
       <Paragraph>
         O código abrange conceitos fundamentais de processamento de imagem, proporcionando uma compreensão detalhada das
