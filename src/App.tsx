@@ -4,8 +4,9 @@ import './App.css';
 import Header from './components/header';
 import { Members, AdailsonPage, JoaoVictorPage, MarceloPage, MarianaPage, RenanPage } from './pages/members';
 import { Container } from '@mui/material';
-import Report1 from './pages/reports/report1';
 import { Reports } from './pages/reports';
+import Report1 from './pages/reports/report1';
+import Report3 from './pages/reports/report3';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="integrantes/renan" element={<RenanPage />} />
           <Route path="relatorios" element={<Reports />} />
           <Route path="relatorios/1" element={<Report1 />} />
+          <Route path="relatorios/3" element={<Report3 />} />
         </Routes>
       </Container>
     </div>
