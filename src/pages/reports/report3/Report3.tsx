@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
+import { Container, Table, TableBody, TableCell, TableHead, TableRow, Typography } from '@mui/material';
 import Paragraph from '../../../components/paragraph';
 import TextImage from '../../../components/text-image';
 import { RGBConversion, RGBSeparation } from '../../../assets/reports/report3';
@@ -7,6 +7,7 @@ import { Bgr2RGBAdailson, Bgr2RGBGrupo, Bgr2RGBJoaoVictor, Bgr2RGBMarcelo, Bgr2R
 import { RGBAdailson, RGBGrupo, RGBJoaoVictor, RGBMarcelo, RGBMari, RGBRenan } from '../../../assets/reports/report3/r-g-and-b';
 import { YCrCbAndHSVAdailson, YCrCbAndHSVGrupo, YCrCbAndHSVJoaoVictor, YCrCbAndHSVMarcelo, YCrCbAndHSVMari, YCrCbAndHSVRenan } from '../../../assets/reports/report3/ycrcb-and-hsv';
 import { YCrCbChannelsAdailson, YCrCbChannelsGrupo, YCrCbChannelsJoaoVictor, YCrCbChannelsMarcelo, YCrCbChannelsMari, YCrCbChannelsRenan } from '../../../assets/reports/report3/ycrcb-channels';
+import { CompressionAdailson, CompressionJoaoVictor, CompressionMarcelo, CompressionMari, CompressionRenan, CompressionGrupo } from '../../../assets/reports/report3/compression';
 
 const Report3 = () => {
   return (
@@ -52,8 +53,9 @@ const Report3 = () => {
         <li>Compressão</li>
         <li>DCT (Transformada Discreta de Cosseno)</li>
       </ul>
-
-      ### ADICIONAR BOTÃO DO COLAAB
+      <Paragraph>
+        O código desenvolvido pode ser acessado através deste <a href='https://colab.research.google.com/drive/1MECWLnvw5SqqRnIBTzzFQCxs4vHPWysw?usp=sharing' target='_blank' rel='noopener noreferrer'>link</a>
+      </Paragraph>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Procedimento</Typography>
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Cores no pdrão RGB</Typography>
@@ -125,6 +127,104 @@ const Report3 = () => {
       <TextImage image={YCrCbChannelsGrupo} imageNumber={26} subtitle='Camadas Y, Cr e Cb da foto do grupo' width={1000}/>
 
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Compressão de Imagem</Typography>
+      <Paragraph>
+        O formato JPEG é utilizado para comprimir as imagens, variando o nível de qualidade. Visualizações das imagens
+        comprimidas são apresentadas, destacando os efeitos perceptíveis na qualidade da imagem. A compressão JPEG atua
+        removendo detalhes menos perceptíveis, resultando em menor tamanho de arquivo com alguma perda de qualidade.
+      </Paragraph>
+      <Paragraph>
+        Para comprimir as imagens, utilizamos a função <b>imwrite()</b> do OpenCV, que recebe como parâmetros o nome do arquivo
+        de saída, a imagem a ser salva e o nível de compressão, que varia de 0 a 100. Quanto maior o nível de de
+        compressão (mais próximo de 0), maior a perda de qualidade da imagem. Abaixo é possível ver a diferença entre
+        umas imagem com níveis de compressão 95 (valor padrão), 25 e 5.
+        <TextImage image={CompressionAdailson} imageNumber={27} subtitle='Foto do Adailson com nível de compressão 95, 25 e 5.' width={1100}/>
+        <TextImage image={CompressionJoaoVictor} imageNumber={28} subtitle='Foto do João Victor com nível de compressão 95, 25 e 5.' width={1100}/>
+        <TextImage image={CompressionMarcelo} imageNumber={29} subtitle='Foto do Marcelo com nível de compressão 95, 25 e 5.' width={1100}/>
+        <TextImage image={CompressionMari} imageNumber={30} subtitle='Foto da Mariana com nível de compressão 95, 25 e 5.' width={1100}/>
+        <TextImage image={CompressionRenan} imageNumber={31} subtitle='Foto do Renan com nível de compressão 95, 25 e 5.' width={1100}/>
+        <TextImage image={CompressionGrupo} imageNumber={32} subtitle='Foto do grupo com nível de compressão 95, 25 e 5.' width={1100}/>
+      </Paragraph>
+      <Paragraph>
+        A perda de qualidade da imagem é perceptível, em especial para os níveis de compressão 5, em que é possível ver
+        alterações até nas cores da imagem. Para o nível de compressão 25, a perda de qualidade é menor, mas ainda
+        perceptível. Para o nível de compressão 95, a perda de qualidade é quase imperceptível.
+      </Paragraph>
+      <Paragraph>
+        Como citado anteriormente, outra diferença perceptível é o tamanho dos arquivos, na tabela a seguir é possível
+        ver o tamanho das imahens utilizadas nesse relatório para cada nível de compressão. Note que o tamanho das
+        fotos do João Victor e do grupo são consideravelmente menores que as demais, isso ocorreu pois optamos por manter
+        a extensão original das fotos (JPG) após a compressão. E apesar de essas fotos se comportarem um pouco diferente,
+        é possivel ver um padrão nas demais fotos, onde o tamanho do arquivo diminui cerca de 90% do nível 95 para 25,
+        e depois mais uns 20% do nível 25 para 5.
+
+      </Paragraph>
+      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+        <Table sx={{ width: 690 }} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell>Nível de Compressão</TableCell>
+              <TableCell align="right">Adailson</TableCell>
+              <TableCell align="right">João Victor</TableCell>
+              <TableCell align="right">Marcelo</TableCell>
+              <TableCell align="right">Mariana</TableCell>
+              <TableCell align="right">Renan</TableCell>
+              <TableCell align="right">Grupo</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+              <TableRow key='95' sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                <TableCell component="th" scope="row">95</TableCell>
+                <TableCell align="right">603 KB</TableCell>
+                <TableCell align="right">150 KB</TableCell>
+                <TableCell align="right">591 KB</TableCell>
+                <TableCell align="right">644 KB</TableCell>
+                <TableCell align="right">634 KB</TableCell>
+                <TableCell align="right">156 KB</TableCell>
+              </TableRow>
+
+              <TableRow key='25' sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                <TableCell component="th" scope="row">25</TableCell>
+                <TableCell align="right">60 KB</TableCell>
+                <TableCell align="right">29 KB</TableCell>
+                <TableCell align="right">58 KB</TableCell>
+                <TableCell align="right">70 KB</TableCell>
+                <TableCell align="right">62 KB</TableCell>
+                <TableCell align="right">38 KB</TableCell>
+              </TableRow>
+
+              <TableRow key='5' sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                <TableCell component="th" scope="row">5</TableCell>
+                <TableCell align="right">50 KB</TableCell>
+                <TableCell align="right">18 KB</TableCell>
+                <TableCell align="right">49 KB</TableCell>
+                <TableCell align="right">51 KB</TableCell>
+                <TableCell align="right">50 KB</TableCell>
+                <TableCell align="right">19 KB</TableCell>
+              </TableRow>
+          </TableBody>
+        </Table>
+        <p style={{fontSize: '85%'}}><b>Tabela 1 - </b>Tamanhos em KB das imagens para cada tipo de compressão.</p>
+      </div>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Transformada Discreta de Cosseno</Typography>
+      <Paragraph>
+        Por fim, selecionamos um cloco de 8x8 no centro das imagens, aplicamos a DCT  e realizamos a manipulação manual
+        dos coeficientes para zerar componentes AC (alternadas) da diagonal.
+      </Paragraph>
+
+      <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>
+      <Paragraph>
+        O código abrange conceitos fundamentais de processamento de imagem, proporcionando uma compreensão detalhada das
+        operações realizadas.
+      </Paragraph>
+      <Paragraph>
+        A análise das visualizações, incluindo as mudanças nas escalas de cores e os efeitos da compressão, destaca a
+        importância dessas técnicas na manipulação e otimização de imagens em diversas aplicações.
+      </Paragraph>
+      <Paragraph>
+        O espaço YCrCb oferece vantagens significativas ao separar luminância e crominância, enquanto a compressão JPEG
+        é eficaz na redução do tamanho de arquivo com perdas mínimas perceptíveis.
+      </Paragraph>
     </Container>
   );
 }
