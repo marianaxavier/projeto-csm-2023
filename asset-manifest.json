@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.cb684e3b.js",
+    "main.js": "/projeto-csm-2023/static/js/main.f631d055.js",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/lento_celular_720.mp4": "/projeto-csm-2023/static/media/lento_celular_720.c9292efb6420cbd398fd.mp4",
     "static/media/lento_camera_720.mp4": "/projeto-csm-2023/static/media/lento_camera_720.34149171529cd4ab5cae.mp4",
@@ -44,7 +44,9 @@
     "static/media/grupo_pb.jpg": "/projeto-csm-2023/static/media/grupo_pb.b3768f55cdb5bde3f61c.jpg",
     "static/media/joao_victor_foto_pb.jpg": "/projeto-csm-2023/static/media/joao_victor_foto_pb.367119fe2881852939a2.jpg",
     "static/media/Adailson_50.jpg": "/projeto-csm-2023/static/media/Adailson_50.5d16ddb153089c477086.jpg",
+    "static/media/compression_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/compression_JoaoVictor.f6428a1bc7fbcf00884b.jpeg",
     "static/media/rgb_separation.png": "/projeto-csm-2023/static/media/rgb_separation.6a5724132240fe6ae970.png",
+    "static/media/compression_Grupo.jpeg": "/projeto-csm-2023/static/media/compression_Grupo.f4704259e1f262483b23.jpeg",
     "static/media/ycrcb_and_hsv_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/ycrcb_and_hsv_JoaoVictor.307db181ef2e71fddfb9.jpeg",
     "static/media/grupo_50.jpg": "/projeto-csm-2023/static/media/grupo_50.27d9b1e6ca05459496b5.jpg",
     "static/media/ycrcb_and_hsv_Grupo.jpeg": "/projeto-csm-2023/static/media/ycrcb_and_hsv_Grupo.4ffa4cbf338f5d30393e.jpeg",
@@ -54,9 +56,13 @@
     "static/media/r_g_and_b_Grupo.jpeg": "/projeto-csm-2023/static/media/r_g_and_b_Grupo.22b1aa3df68c0a171197.jpeg",
     "static/media/bgr_to_rgb_Grupo.jpeg": "/projeto-csm-2023/static/media/bgr_to_rgb_Grupo.fec0882d1d3762a5ae7c.jpeg",
     "static/media/bgr_to_rgb_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/bgr_to_rgb_JoaoVictor.0cb919f34ffa9e766324.jpeg",
+    "static/media/compression_Mari.JPG": "/projeto-csm-2023/static/media/compression_Mari.59a99df8d37d3fd121ec.JPG",
     "static/media/ycrcb_channels_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/ycrcb_channels_JoaoVictor.13a098c5bff4515d79e0.jpeg",
     "static/media/ycrcb_channels_Grupo.jpeg": "/projeto-csm-2023/static/media/ycrcb_channels_Grupo.0634a68f089ffb31b37b.jpeg",
     "static/media/ycrcb_and_hsv_Mari.JPG": "/projeto-csm-2023/static/media/ycrcb_and_hsv_Mari.be68a19e6b195e01cb8c.JPG",
+    "static/media/compression_Adailson.JPG": "/projeto-csm-2023/static/media/compression_Adailson.40e6c8d8043e34d4edbc.JPG",
+    "static/media/compression_Marcelo.JPG": "/projeto-csm-2023/static/media/compression_Marcelo.0595e187df47a4e8acda.JPG",
+    "static/media/compression_Renan.JPG": "/projeto-csm-2023/static/media/compression_Renan.1fcc9416c54407a55be1.JPG",
     "static/media/r_g_and_b_Mari.JPG": "/projeto-csm-2023/static/media/r_g_and_b_Mari.74648ddf37f6accc4779.JPG",
     "static/media/ycrcb_and_hsv_Renan.JPG": "/projeto-csm-2023/static/media/ycrcb_and_hsv_Renan.b162bbfbe9034a4fa3af.JPG",
     "static/media/ycrcb_and_hsv_Adailson.JPG": "/projeto-csm-2023/static/media/ycrcb_and_hsv_Adailson.e6a84355da8bdb4441f0.JPG",
@@ -80,10 +86,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.cb684e3b.js.map": "/projeto-csm-2023/static/js/main.cb684e3b.js.map"
+    "main.f631d055.js.map": "/projeto-csm-2023/static/js/main.f631d055.js.map"
   },
   "entrypoints": [
     "static/css/main.1f761383.css",
-    "static/js/main.cb684e3b.js"
+    "static/js/main.f631d055.js"
   ]
 }
