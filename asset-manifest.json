@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.f631d055.js",
+    "main.js": "/projeto-csm-2023/static/js/main.d3c6a601.js",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/lento_celular_720.mp4": "/projeto-csm-2023/static/media/lento_celular_720.c9292efb6420cbd398fd.mp4",
     "static/media/lento_camera_720.mp4": "/projeto-csm-2023/static/media/lento_camera_720.34149171529cd4ab5cae.mp4",
@@ -82,14 +82,20 @@
     "static/media/rgb_conversion.png": "/projeto-csm-2023/static/media/rgb_conversion.674eae6b53633363f7f1.png",
     "static/media/avatar.png": "/projeto-csm-2023/static/media/avatar.f28b458e401a939bc624.png",
     "static/media/mari_avatar.png": "/projeto-csm-2023/static/media/mari_avatar.f28b458e401a939bc624.png",
+    "static/media/cosine_transform_Renan.JPG": "/projeto-csm-2023/static/media/cosine_transform_Renan.14f98dad434c217a493c.JPG",
+    "static/media/cosine_transform_Adailson.JPG": "/projeto-csm-2023/static/media/cosine_transform_Adailson.d636f3385a3f75cdb678.JPG",
+    "static/media/cosine_transform_Marcelo.JPG": "/projeto-csm-2023/static/media/cosine_transform_Marcelo.5db951db5d987977a09c.JPG",
     "static/media/joao_victor_foto_25.jpg": "/projeto-csm-2023/static/media/joao_victor_foto_25.058e54b14dac4ef7199e.jpg",
+    "static/media/cosine_transform_Mari.JPG": "/projeto-csm-2023/static/media/cosine_transform_Mari.78052bb046646dbc013f.JPG",
+    "static/media/cosine_transform_Grupo.jpeg": "/projeto-csm-2023/static/media/cosine_transform_Grupo.43249f5f6dce4b10af23.jpeg",
+    "static/media/cosine_transform_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/cosine_transform_JoaoVictor.d4e3b1f65866c1f371dd.jpeg",
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.f631d055.js.map": "/projeto-csm-2023/static/js/main.f631d055.js.map"
+    "main.d3c6a601.js.map": "/projeto-csm-2023/static/js/main.d3c6a601.js.map"
   },
   "entrypoints": [
     "static/css/main.1f761383.css",
-    "static/js/main.f631d055.js"
+    "static/js/main.d3c6a601.js"
   ]
 }
