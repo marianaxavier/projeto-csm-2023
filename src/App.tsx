@@ -7,6 +7,7 @@ import { Container } from '@mui/material';
 import { Reports } from './pages/reports';
 import Report1 from './pages/reports/report1';
 import Report3 from './pages/reports/report3';
+import Report4 from './pages/reports/report4';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="relatorios" element={<Reports />} />
           <Route path="relatorios/1" element={<Report1 />} />
           <Route path="relatorios/3" element={<Report3 />} />
+          <Route path="relatorios/4" element={<Report4 />} />
         </Routes>
       </Container>
     </div>
