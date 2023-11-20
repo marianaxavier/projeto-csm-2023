@@ -11,8 +11,7 @@ const Report4 = () => {
 
       <Paragraph>
         Nesta atividade prática será utilizada a linguagem de programação Python para realização dos processos de codificação
-        DWT e IDWT nas fotos tiradas pelo grupo durante a aula prática 1, que consistem em fotos individuais de cada
-        integrante e também uma de todo o grupo.
+        DWT e IDWT nas fotos tiradas pelo grupo durante a aula prática 1.
       </Paragraph>
 
       <Paragraph>
@@ -25,7 +24,7 @@ const Report4 = () => {
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Objetivos</Typography>
 
       <Paragraph>
-        Esta atividade prática tem como objetivo principail mostrar de forma computacional o processo de codificação DWT e
+        Esta atividade prática tem como objetivo principal mostrar de forma computacional o processo de codificação DWT e
         IDWT, sua reconstrução, assim como outras formas de codificação multinível, e verificar a taxa de compressão a partir
         da da Componente de Aproximação.
       </Paragraph>
@@ -105,9 +104,8 @@ const Report4 = () => {
 
        <TextImage image={Img5} imageNumber={5} subtitle='' width={900}/>
 
-      Item F, reconstrução de imagem colorida.
       <Paragraph>
-        Primeiramente, código realiza a transformada discreta de wavelet bidimensional (2D-DWT) em um plano de cor específico
+        Para o item F, reconstrução de imagem colorida, o código realiza a transformada discreta de wavelet bidimensional (2D-DWT) em um plano de cor específico
         de uma imagem, para cada cor (vermelho, verde e azul). Ele então separa os coeficientes resultantes em aproximação e
         detalhes nas direções vertical, horizontal, e diagonal. Em seguida, reconstrói a imagem original a partir desses
         coeficientes usando a transformada discreta de wavelet inversa bidimensional no plano da cor específica. Finalmente,
@@ -141,8 +139,11 @@ const Report4 = () => {
 
        <TextImage image={Img15} imageNumber={15} subtitle='' width={900}/>
 
-      Item G, Salvando as Aproximações e depois fazendo download dos arquivos, calcular a taxa de compressão com o original.
-      Nesta parte do código é obtido a aproximação de nível 1 e nível 2 de decomposição DWT e salva no drive.
+      <Paragraph>
+        Item G, Salvando as Aproximações e depois fazendo download dos arquivos, calcular a taxa de compressão com o original.
+        Nesta parte do código é obtido a aproximação de nível 1 e nível 2 de decomposição DWT e salva no drive.
+      </Paragraph>
+
       <Paragraph>
         No item H, Gravando o Arquivo Codificado DWT/IDWT nível 1 Colorido, calcular a taxa de compressão com o original, o
         código realiza algumas operações para ajustar a representação da imagem reconstruída no nível 1, convertendo-a para
