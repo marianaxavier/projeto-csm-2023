@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.6bc59597.js",
+    "main.js": "/projeto-csm-2023/static/js/main.4d955059.js",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/lento_celular_720.mp4": "/projeto-csm-2023/static/media/lento_celular_720.c9292efb6420cbd398fd.mp4",
     "static/media/lento_camera_720.mp4": "/projeto-csm-2023/static/media/lento_camera_720.34149171529cd4ab5cae.mp4",
@@ -109,10 +109,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.6bc59597.js.map": "/projeto-csm-2023/static/js/main.6bc59597.js.map"
+    "main.4d955059.js.map": "/projeto-csm-2023/static/js/main.4d955059.js.map"
   },
   "entrypoints": [
     "static/css/main.1f761383.css",
-    "static/js/main.6bc59597.js"
+    "static/js/main.4d955059.js"
   ]
 }
