@@ -275,12 +275,16 @@ const ExtensionProject = () => {
         Grande quantidade de QR codes tornou o evento confuso e maçante para os participantes, incluindo não apenas
         alunos e professores visitantes, mas também a comunidade interna. Acreditamos que isso foi um fator que afetou
         fortemente o engajamento com as atividades propostas pelos grupos durante o evento como um todo.
+      </Paragraph>
 
+      <Paragraph>
         Além disso, também notamos que muitas pessoas queriam responder à pesquisa, no entanto não tinham acesso à internet
         ou a um celular que permitisse o preenchimento do formulário. No final do evento foram disponibilizados formulários
         físicos que permitiram que mais pessoas respondessem à pesquisa, mas ainda assim acreditamos que a experiência teria
         sido mais completa se essa opção estivesse disponível desde o início.
+      </Paragraph>
 
+      <Paragraph>
         Por fim, sentimos falta de um momento de interação entre os grupos, que permitisse a troca de experiências e
         apresentação dos projetos entre nós. Havia um grande número de grupos e acreditamos que isso teria sido uma
         oportunidade não só de aprendizado, mas também de socialização entre os participantes e divertimento.
