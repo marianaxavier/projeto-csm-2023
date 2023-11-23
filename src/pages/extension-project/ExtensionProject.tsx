@@ -72,24 +72,11 @@ const ExtensionProject = () => {
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>3. Materiais e Metodologia</Typography>
 
-      <Paragraph>
-        O projeto Math VR foi apresentado na UFABC no dia 26 de Outubro de 2023 para alunos e professores do ensino
-        fundamental e médio, além de alguns estudantes da própria universidade. No evento foram apresentados diversos
-        projetos de extensão de estudantes das disciplinas de "Codificação de Sinais e Multimídia" e "Jogos Digitais,
-        Aspectos Técnicos e Aplicações", dentre eles o projeto Math VR, apresentado neste relatório.
-      </Paragraph>
-
-      <Paragraph>
-        A apresentação do projeto Math VR, realizada no dia do evento pode ser assistida no Vídeo 1, a seguir:
-      </Paragraph>
-
-      <TextVideo video={Explicacao} videoType='video/mp4' videoNumber={1} subtitle='Apresentação sobre o projeto Math VR realizada na UFABC no dia 26/10/2023.'/>
-
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>3.1. Materiais</Typography>
 
       <Paragraph>
         O elemento principal do experimento é o óculos VR. Ele possui um compartimento para acomodar o celular que será
-        utilizado com tela, um conector P2 para captar o áudio do celular e reproduzir nos fones envolventes, um ajuste
+        utilizado como tela, um conector P2 para captar o áudio do celular e reproduzir nos fones envolventes, um ajuste
         lateral de zoom, um ajuste de volume e alças de fixação para cabeça.
       </Paragraph>
 
@@ -113,7 +100,7 @@ const ExtensionProject = () => {
       <Paragraph>
         No dia da apresentação utilizamos um monitor com conexão HDMI e um cabo conversor para USB do tipo C com o
         objetivo de reproduzir em tempo real o que o visitante estava visualizando. Também utilizamos um notebook para
-        apresentar slides com informações do nosso projeto.
+        apresentar slides com informações do nosso projeto. Os slides estão disponíveis no Arquivo 1, abaixo.
       </Paragraph>
 
 
@@ -143,6 +130,18 @@ const ExtensionProject = () => {
 
 
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>3.2. Metodologia</Typography>
+
+      <Paragraph>
+        O projeto Math VR foi apresentado na UFABC no dia 26 de Outubro de 2023 para alunos e professores do ensino
+        fundamental e médio, além de alguns estudantes da própria universidade. No evento foram apresentados diversos
+        projetos de extensão de estudantes das disciplinas de "Codificação de Sinais e Multimídia" e "Jogos Digitais,
+        Aspectos Técnicos e Aplicações", dentre eles o projeto Math VR, apresentado neste relatório.
+      </Paragraph>
+
+      <Paragraph>
+        A apresentação do projeto na exposição foi dividida em cinco etapas:
+      </Paragraph>
+
       <Paragraph>
         <b>3.2.1 Apresentação Inicial: </b>
         O evento começou com uma apresentação introdutória sobre a importância da inovação no ensino e os benefícios da
@@ -174,6 +173,14 @@ const ExtensionProject = () => {
         forms. Isso inclui opiniões sobre a usabilidade do aplicativo, a eficácia dos óculos de realidade virtual e sugestões
         para melhorias futuras.
       </Paragraph>
+
+      <Paragraph>
+        Para ilustrar melhor como foi feita a apresentação do projeto, realizou-se a gravação de um vídeo que mostra, de
+        forma simplificada e resumida, como foi a apresentação do projeto Math VR na UFABC. O vídeo está disponível no
+        Vídeo 1, abaixo
+      </Paragraph>
+
+      <TextVideo video={Explicacao} videoType='video/mp4' videoNumber={1} subtitle='Apresentação sobre o projeto Math VR realizada na UFABC no dia 26/10/2023.'/>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>4. Resultados e Discussão</Typography>
 
@@ -268,14 +275,24 @@ const ExtensionProject = () => {
         Grande quantidade de QR codes tornou o evento confuso e maçante para os participantes, incluindo não apenas
         alunos e professores visitantes, mas também a comunidade interna. Acreditamos que isso foi um fator que afetou
         fortemente o engajamento com as atividades propostas pelos grupos durante o evento como um todo.
+
+        Além disso, também notamos que muitas pessoas queriam responder à pesquisa, no entanto não tinham acesso à internet
+        ou a um celular que permitisse o preenchimento do formulário. No final do evento foram disponibilizados formulários
+        físicos que permitiram que mais pessoas respondessem à pesquisa, mas ainda assim acreditamos que a experiência teria
+        sido mais completa se essa opção estivesse disponível desde o início.
+
+        Por fim, sentimos falta de um momento de interação entre os grupos, que permitisse a troca de experiências e
+        apresentação dos projetos entre nós. Havia um grande número de grupos e acreditamos que isso teria sido uma
+        oportunidade não só de aprendizado, mas também de socialização entre os participantes e divertimento.
       </Paragraph>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>5. Conclusão</Typography>
 
       <Paragraph>
         A apresentação bem-sucedida do projeto demonstrou que a tecnologia de óculos VR pode ser uma ferramenta eficaz
-        para tornar o ensino de matemática mais atrativo. Os próximos passos incluirão a coleta mais aprofundada de
-        feedback dos alunos e educadores para refinar o aplicativo Math VR e adaptar o conteúdo conforme necessário.
+        para tornar o ensino de matemática mais atrativo. Notamos que muitos professores se mostraram muito interessados
+        em aplicar métodos semelhantes ao que apresentamos em suas próprias aulas, mostrando a existência de uma oprortunidade
+        muito grande de desenvolvimento mais aprofundado nessa área.
       </Paragraph>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>6. Agradecimentos</Typography>
