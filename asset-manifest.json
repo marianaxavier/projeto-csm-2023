@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.88a52fed.js",
+    "main.js": "/projeto-csm-2023/static/js/main.6ea95618.js",
     "static/media/explicacao.mp4": "/projeto-csm-2023/static/media/explicacao.ce9eb3cb93ea8cd6d6ff.mp4",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/entrevista1.mp4": "/projeto-csm-2023/static/media/entrevista1.e6013472474ddf60be16.mp4",
@@ -43,7 +43,6 @@
     "static/media/Img14.jpg": "/projeto-csm-2023/static/media/Img14.2180ca8728afc0fb74bb.jpg",
     "static/media/arandu.m4a": "/projeto-csm-2023/static/media/arandu.8461a2c230dc5fd88fa1.m4a",
     "static/media/Img6.jpg": "/projeto-csm-2023/static/media/Img6.f33114c13af4afd5c6ba.jpg",
-    "static/media/Teste1.jpg": "/projeto-csm-2023/static/media/Teste1.3afa96b05b847f5cd492.jpg",
     "static/media/Img3.jpg": "/projeto-csm-2023/static/media/Img3.b488d9f3d590dc6a3646.jpg",
     "static/media/Teste3Joao.jpg": "/projeto-csm-2023/static/media/Teste3Joao.57b814b8addc6d6902d1.jpg",
     "static/media/Img10.jpg": "/projeto-csm-2023/static/media/Img10.a98d93ee86b1b8ca349f.jpg",
@@ -51,6 +50,7 @@
     "static/media/Teste3Adailson.jpg": "/projeto-csm-2023/static/media/Teste3Adailson.36cb16eff545a47b52ea.jpg",
     "static/media/Teste3Mariana.jpg": "/projeto-csm-2023/static/media/Teste3Mariana.80f6411ab03afe144aa3.jpg",
     "static/media/Teste3Marcelo.jpg": "/projeto-csm-2023/static/media/Teste3Marcelo.3a42f6af31990617fe5b.jpg",
+    "static/media/Teste1.jpg": "/projeto-csm-2023/static/media/Teste1.5022697fc6c2b488f3ed.jpg",
     "static/media/Img7.jpg": "/projeto-csm-2023/static/media/Img7.a7f8699b29a009d3e036.jpg",
     "static/media/Img1.jpg": "/projeto-csm-2023/static/media/Img1.ac159672ae3cc984ed0e.jpg",
     "static/media/Img13.jpg": "/projeto-csm-2023/static/media/Img13.a0a6ba431717f3211712.jpg",
@@ -123,10 +123,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.88a52fed.js.map": "/projeto-csm-2023/static/js/main.88a52fed.js.map"
+    "main.6ea95618.js.map": "/projeto-csm-2023/static/js/main.6ea95618.js.map"
   },
   "entrypoints": [
     "static/css/main.1f761383.css",
-    "static/js/main.88a52fed.js"
+    "static/js/main.6ea95618.js"
   ]
 }
