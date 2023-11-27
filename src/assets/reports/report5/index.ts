@@ -1,0 +1,11 @@
+export { default as Foto1 } from './Foto1.jpg';
+export { default as Foto2 } from './Foto2.jpg';
+export { default as Foto3 } from './Foto3.jpg';
+export { default as Teste1 } from './Teste1.jpg';
+export { default as Teste2 } from './Teste2.jpg';
+export { default as Teste3Adailson } from './Teste3Adailson.jpg';
+export { default as Teste3Joao } from './Teste3Joao.jpg';
+export { default as Teste3Marcelo } from './Teste3Marcelo.jpg';
+export { default as Teste3Mariana } from './Teste3Mariana.jpg';
+export { default as Teste3Renan } from './Teste3Renan.jpg';
+export { default as Report5 } from './Foto3.jpg';
