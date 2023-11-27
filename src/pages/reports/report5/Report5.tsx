@@ -44,6 +44,13 @@ const Report5 = () => {
         Img. 1, abaixo:
       </Paragraph>
       <TextImage image={Teste1}  imageNumber={1} subtitle='Tabela com os resultados obtidos no teste de Faixa Audível'/>
+      <Paragraph>
+        Um resultado interessante que pode ser observado é que, para a maioria dos participantes a frequência mais alta
+        audível foi maior quando os participantes não estavam utilizando fones de ouvido envolventes. Isso pode ser
+        explicado se levarmos em consideração que as saídas de aúdio de diferentes dispositivos possuem diferentes
+        resposta de frequência, incfluenciando no resultado obtido. Além disso, o volume determinado em cada
+        cenário também pode ter influenciado nos resultados.
+      </Paragraph>
 
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Teste de Mascaramento de Tons Harmônicos</Typography>
       <Paragraph>
@@ -110,7 +117,7 @@ const Report5 = () => {
         <ul style={{textAlign: 'justify', textIndent: '0px'}}>
           <li><b>Teste de Faixa Audível:</b> Demonstrou uma boa faixa auditiva em todas as condições, sugerindo sensibilidade a uma ampla gama de frequências.</li>
           <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Mostrou uma atenuação de -12 dB, indicando boa capacidade de discriminação entre tons harmônicos.</li>
-          <li><b>Teste de Localização de Fonte Sonora:</b> Apresentou certa incerteza nos ângulos apontados, especialmente para o som arbitrário, sugerindo desafios na localização precisa de fontes sonoras.</li>
+          <li><b>Teste de Localização de Fonte Sonora:</b> A diferença entre a direção do som real e a direção apontada, variou de 2° a 110°, que é uma variação considerável, mas compreensível, considerando que a audição de nossos ouvidos variam individualmente e sem o auxílio da visão, é comum que ocorra certa desorientação.</li>
         </ul>
       </Paragraph>
 
@@ -119,7 +126,7 @@ const Report5 = () => {
         <ul style={{textAlign: 'justify', textIndent: '0px'}}>
           <li><b>Teste de Faixa Audível:</b> Boa faixa auditiva, similar a Adailson.</li>
           <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Exibiu atenuação consistente de -12 dB, indicando habilidade na percepção de tons harmônicos.</li>
-          <li><b>Teste de Localização de Fonte Sonora:</b> Mostrou alguma variação nos ângulos apontados, especialmente para o som arbitrário, sugerindo possíveis desafios na localização precisa.</li>
+          <li><b>Teste de Localização de Fonte Sonora:</b> A diferença entre a direção do som real e a direção apontada, variou de 2° a 86°, indicando uma percepção parecida com a do Adailson.</li>
         </ul>
       </Paragraph>
 
@@ -128,7 +135,7 @@ const Report5 = () => {
         <ul style={{textAlign: 'justify', textIndent: '0px'}}>
           <li><b>Teste de Faixa Audível:</b> Faixa auditiva ampla, com resultados semelhantes aos demais.</li>
           <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Apresentou atenuação consistente de -12 dB, com excessão de quando o tom encobridor era de 4 kHz e o tom mascarado de 2,4 kHz, nesse caso a atenuação alcançada foi de -15dB, demonstrando um desempenho melhor.</li>
-          <li><b>Teste de Localização de Fonte Sonora:</b> Apresentou certa variação nos ângulos apontados, especialmente para o som arbitrário, sugerindo possíveis desafios na localização precisa.</li>
+          <li><b>Teste de Localização de Fonte Sonora:</b> A diferença entre a direção do som real e a direção apontada, variou de 0° a 114°, mas é interessante ressaltar que quando o áudio era arbitrário, o desempenho foi consideravelmente melhor (variando de 0° a 9°), o que indica que pode indicar mais facilidade com alguns tipos de sons do que com outros.</li>
         </ul>
       </Paragraph>
 
@@ -137,7 +144,7 @@ const Report5 = () => {
         <ul style={{textAlign: 'justify', textIndent: '0px'}}>
           <li><b>Teste de Faixa Audível:</b> Resultados similares aos demais, com boa faixa auditiva.</li>
           <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Exibiu atenuação consistente de -12 dB, indicando habilidade na percepção de tons harmônicos.</li>
-          <li><b>Teste de Localização de Fonte Sonora:</b> Demonstrou certa variação nos ângulos apontados, indicando possível desafio na localização precisa, especialmente para o som arbitrário.</li>
+          <li><b>Teste de Localização de Fonte Sonora:</b> A diferença entre a direção do som real e a direção apontada, variou de 0° a 17°, mostrando uma consistência maior ao localizar a origem de sons.</li>
         </ul>
       </Paragraph>
 
@@ -145,8 +152,8 @@ const Report5 = () => {
         Renan: <br/>
         <ul style={{textAlign: 'justify', textIndent: '0px'}}>
           <li><b>Teste de Faixa Audível:</b> Boa faixa auditiva, semelhante aos outros participantes.</li>
-          <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Apresentou atenuação consistente de -12 dB, e assim como o Marcelo teve um caso que atingiu -15 dB.</li>
-          <li><b>Teste de Localização de Fonte Sonora:</b> Mostrou alguma variação nos ângulos apontados, sugerindo possível desafio na localização precisa, especialmente para o som arbitrário.</li>
+          <li><b>Teste de Mascaramento de Tons Harmônicos:</b> Apresentou atenuação consistente de -12 dB, com exceção do cenário em que as frequências eram de 4 kHz e 2,4 kHz em que as atenuações atingidas forma de -15 dB, indicando um melhor desempenho.</li>
+          <li><b>Teste de Localização de Fonte Sonora:</b> A diferença entre a direção do som real e a direção apontada, variou de 0° a 90°, o que aponta um comportamento semelhante ao do Adailson e do João.</li>
         </ul>
       </Paragraph>
 
