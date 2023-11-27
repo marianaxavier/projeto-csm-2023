@@ -9,6 +9,7 @@ import Report1 from './pages/reports/report1';
 import Report3 from './pages/reports/report3';
 import Report4 from './pages/reports/report4';
 import ExtensionProject from './pages/extension-project';
+import Report5 from './pages/reports/report5';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="relatorios/1" element={<Report1 />} />
           <Route path="relatorios/3" element={<Report3 />} />
           <Route path="relatorios/4" element={<Report4 />} />
+          <Route path="relatorios/5" element={<Report5 />} />
           <Route path="extensao" element={<ExtensionProject />} />
         </Routes>
       </Container>
