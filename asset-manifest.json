@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-csm-2023/static/css/main.1f761383.css",
-    "main.js": "/projeto-csm-2023/static/js/main.77ceada1.js",
+    "main.css": "/projeto-csm-2023/static/css/main.d686f251.css",
+    "main.js": "/projeto-csm-2023/static/js/main.cdbcfd8e.js",
     "static/media/explicacao.mp4": "/projeto-csm-2023/static/media/explicacao.ce9eb3cb93ea8cd6d6ff.mp4",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/entrevista1.mp4": "/projeto-csm-2023/static/media/entrevista1.e6013472474ddf60be16.mp4",
@@ -123,11 +123,11 @@
     "static/media/cosine_transform_JoaoVictor.jpeg": "/projeto-csm-2023/static/media/cosine_transform_JoaoVictor.d4e3b1f65866c1f371dd.jpeg",
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
-    "main.1f761383.css.map": "/projeto-csm-2023/static/css/main.1f761383.css.map",
-    "main.77ceada1.js.map": "/projeto-csm-2023/static/js/main.77ceada1.js.map"
+    "main.d686f251.css.map": "/projeto-csm-2023/static/css/main.d686f251.css.map",
+    "main.cdbcfd8e.js.map": "/projeto-csm-2023/static/js/main.cdbcfd8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f761383.css",
-    "static/js/main.77ceada1.js"
+    "static/css/main.d686f251.css",
+    "static/js/main.cdbcfd8e.js"
   ]
 }
