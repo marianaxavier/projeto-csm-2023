@@ -5,6 +5,7 @@ import TextImage from '../../components/text-image';
 import TextVideo from '../../components/text-video';
 import { Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11, Img12, Img13, Img14, Apresentacao, Explicacao, Entrevista1, Entrevista2} from '../../assets/extension-project'
 import TextPdf from '../../components/text-pdf';
+import { Roteiro } from '../../assets/extension-project/guide';
 
 const ExtensionProject = () => {
   return (
@@ -305,6 +306,9 @@ const ExtensionProject = () => {
         Gostaríamos de agradecer a universidade federal do ABC, bem como a todos os educadores e alunos que participaram
         e contribuíram para o sucesso deste projeto.
       </Paragraph>
+
+      <Typography variant='h4' textAlign='justify' mb={3} mt={5}>7. Roteiro do Experimento</Typography>
+      <TextPdf pdfPath={Roteiro} fileNumber={2} subtitle='Roteiro para a realização do experimento.'/>
     </Container>
   );
 }
