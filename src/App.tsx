@@ -11,6 +11,9 @@ import Report4 from './pages/reports/report4';
 import ExtensionProject from './pages/extension-project';
 import Report5 from './pages/reports/report5';
 import Guide from './pages/extension-project/guide/Guide';
+import Report7 from './pages/reports/report7';
+import Report8 from './pages/reports/report8';
+import Report9 from './pages/reports/report9';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
           <Route path="relatorios/3" element={<Report3 />} />
           <Route path="relatorios/4" element={<Report4 />} />
           <Route path="relatorios/5" element={<Report5 />} />
+          <Route path="relatorios/7" element={<Report7 />} />
+          <Route path="relatorios/8" element={<Report8 />} />
+          <Route path="relatorios/9" element={<Report9 />} />
           <Route path="extensao" element={<ExtensionProject />} />
           <Route path="extensao/roteiro" element={<Guide />} />
         </Routes>
