@@ -1,1 +1,15 @@
 export { default as Report8 } from './Report8.jpg';
+export { default as Img1 } from './Img1.png';
+export { default as Img2 } from './Img2.png';
+export { default as Img3 } from './Img3.png';
+export { default as Img4 } from './Img4.png';
+export { default as Img5 } from './Img5.png';
+export { default as Img6 } from './Img6.png';
+export { default as TwistOriginal } from './original_audio.wav';
+export { default as Twist128k } from './twist_final128k.mp3';
+export { default as Twist64k } from './twist_final64k.mp3';
+export { default as Twist32k } from './twist_final32k.mp3';
+export { default as Twist16k } from './twist_final16k.mp3';
+export { default as Twist8k } from './twist_final8k.mp3';
+export { default as Twist128k2X } from './twist_final128k_v2.mp3';
+export { default as TwistOGG } from './twist_final128k.ogg';
