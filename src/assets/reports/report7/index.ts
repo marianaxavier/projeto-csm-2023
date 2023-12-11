@@ -2,6 +2,7 @@ export { default as Report7 } from './Report7.jpg';
 export { default as AudioJoao } from './joao.wav';
 export { default as AudioMariana } from './mariana.wav';
 export { default as AudioRenan } from './renan.ogg';
+export { default as AudioMarcelo } from './marcelo.wav';
 export { default as Img1 } from './Img1.png';
 export { default as Img2 } from './Img2.png';
 export { default as Img3 } from './Img3.png';

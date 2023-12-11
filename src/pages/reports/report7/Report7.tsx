@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography } from '@mui/material';
 import Paragraph from '../../../components/paragraph';
 import TextAudio from '../../../components/text-audio';
-import { AudioJoao, AudioMariana, AudioRenan, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23 } from '../../../assets/reports/report7';
+import { AudioJoao, AudioMariana, AudioRenan, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, AudioMarcelo } from '../../../assets/reports/report7';
 import TextImage from '../../../components/text-image';
 
 const Report7 = () => {
@@ -164,8 +164,12 @@ const Report7 = () => {
 
       <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Marcelo</Typography>
       <Paragraph>
-        Assim como nos casos anteriores, aplicou-se os processamentos citados em um áudio gravado pelo Marcelo, gerando
-        os seguintes resultados:
+        Assim como nos casos anteriores, aplicou-se os processamentos citados em um áudio gravado pelo Marcelo, que se
+        encontram a seguir:
+      </Paragraph>
+      <TextAudio audio={AudioMarcelo} audioType='audio/wav'/><br/>
+      <Paragraph>
+        Os resultados encontrados estão a seguir:
       </Paragraph>
       <TextImage image={Img19} imageNumber={19} subtitle='Gráfico da energia do áudio gravado pelo Marcelo.'/>
       <TextImage image={Img20} imageNumber={20} subtitle='Gráfico da frequência fundamental ao longo do tempo no áudio do Marcelo.'/>
