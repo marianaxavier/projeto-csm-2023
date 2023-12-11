@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.d686f251.css",
-    "main.js": "/projeto-csm-2023/static/js/main.ca6c7deb.js",
+    "main.js": "/projeto-csm-2023/static/js/main.a20c24ca.js",
     "static/media/explicacao.mp4": "/projeto-csm-2023/static/media/explicacao.ce9eb3cb93ea8cd6d6ff.mp4",
     "static/media/lento.mp4": "/projeto-csm-2023/static/media/lento.6d0e7199ebc124ed877d.mp4",
     "static/media/entrevista1.mp4": "/projeto-csm-2023/static/media/entrevista1.e6013472474ddf60be16.mp4",
@@ -49,6 +49,7 @@
     "static/media/Img3.png": "/projeto-csm-2023/static/media/Img3.c02b032613c00595c791.png",
     "static/media/Img4.jpg": "/projeto-csm-2023/static/media/Img4.38881d6d7390ecc48247.jpg",
     "static/media/Img3.jpg": "/projeto-csm-2023/static/media/Img3.b488d9f3d590dc6a3646.jpg",
+    "static/media/marcelo.wav": "/projeto-csm-2023/static/media/marcelo.de931a56acbeec1c8698.wav",
     "static/media/Img7.jpg": "/projeto-csm-2023/static/media/Img7.5f22194ac188cc2b77a1.jpg",
     "static/media/Img16.jpg": "/projeto-csm-2023/static/media/Img16.be326d9e1e21c878d39f.jpg",
     "static/media/Img11.jpg": "/projeto-csm-2023/static/media/Img11.13220b8324f388ca15ca.jpg",
@@ -161,10 +162,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.d686f251.css.map": "/projeto-csm-2023/static/css/main.d686f251.css.map",
-    "main.ca6c7deb.js.map": "/projeto-csm-2023/static/js/main.ca6c7deb.js.map"
+    "main.a20c24ca.js.map": "/projeto-csm-2023/static/js/main.a20c24ca.js.map"
   },
   "entrypoints": [
     "static/css/main.d686f251.css",
-    "static/js/main.ca6c7deb.js"
+    "static/js/main.a20c24ca.js"
   ]
 }
