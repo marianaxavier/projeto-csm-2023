@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography } from '@mui/material';
 import Paragraph from '../../../components/paragraph';
 import TextAudio from '../../../components/text-audio';
-import { AudioJoao, AudioMariana, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9 } from '../../../assets/reports/report7';
+import { AudioJoao, AudioMariana, AudioRenan, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23 } from '../../../assets/reports/report7';
 import TextImage from '../../../components/text-image';
 
 const Report7 = () => {
@@ -145,6 +145,33 @@ const Report7 = () => {
 
       <TextImage image={Img10} imageNumber={10} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio da Mariana.'/>
       <TextImage image={Img11} imageNumber={11} subtitle='Gráfico do espectro de frequência dos segmentos de não-voz do áudio da Mariana.'/>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Renan</Typography>
+      <Paragraph>
+        Para o Renan, o áudio utilizado foi o apresentado a seguir, cujo espectrograma pode ser visto na Img. 12.
+      </Paragraph>
+      <TextAudio audio={AudioRenan} audioType='audio/ogg'/><br/>
+      <TextImage image={Img12} imageNumber={12} subtitle='Gráfico do sinal do áudio gravado pelo Renan.'/>
+      <Paragraph>
+        Para esse áudio, foram realizados os mesmos procedimentos do áudio anterior, obtendo-se os gráficos a seguir:
+      </Paragraph>
+      <TextImage image={Img13} imageNumber={13} subtitle='Gráfico da energia do áudio gravado pelo Renan.'/>
+      <TextImage image={Img14} imageNumber={14} subtitle='Gráfico da frequência fundamental ao longo do tempo no áudio do Renan.'/>
+      <TextImage image={Img15} imageNumber={15} subtitle='Gráfico do pitch do áudio do Renan.'/>
+      <TextImage image={Img16} imageNumber={16} subtitle='Gráfico do espectrograma junto com a linha da frequência fundamental do áudio do Renan.'/>
+      <TextImage image={Img17} imageNumber={17} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio do Renan.'/>
+      <TextImage image={Img18} imageNumber={18} subtitle='Gráfico do espectro de frequência dos segmentos de não-voz do áudio do Renan.'/>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Marcelo</Typography>
+      <Paragraph>
+        Assim como nos casos anteriores, aplicou-se os processamentos citados em um áudio gravado pelo Marcelo, gerando
+        os seguintes resultados:
+      </Paragraph>
+      <TextImage image={Img19} imageNumber={19} subtitle='Gráfico da energia do áudio gravado pelo Marcelo.'/>
+      <TextImage image={Img20} imageNumber={20} subtitle='Gráfico da frequência fundamental ao longo do tempo no áudio do Marcelo.'/>
+      <TextImage image={Img21} imageNumber={21} subtitle='Gráfico do pitch do áudio do Marcelo.'/>
+      <TextImage image={Img22} imageNumber={22} subtitle='Gráfico do espectrograma junto com a linha da frequência fundamental do áudio do Marcelo.'/>
+      <TextImage image={Img23} imageNumber={23} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio do Marcelo.'/>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>
       <Paragraph>
