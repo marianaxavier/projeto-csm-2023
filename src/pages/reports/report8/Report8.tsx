@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Typography } from '@mui/material';
 import Paragraph from '../../../components/paragraph';
+import TextAudio from '../../../components/text-audio';
+import { Img1, Img2, Img3, Img4, Img5, Img6, Img7, TwistOriginal, Twist128k, Twist64k, Twist32k, Twist16k, Twist8k, Twist128k2X, TwistOGG } from '../../../assets/reports/report8'
+import TextImage from '../../../components/text-image';
 
 const Report8  = () => {
   return (
@@ -68,10 +71,78 @@ const Report8  = () => {
 
 
 
-      <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Resultados</Typography>
+      <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Resultados e Discussões</Typography>
+      <Paragraph>
+        O áudio utilizado neste experimento é um trecho da música "Twist and Shout" que foi cantada pelos estudantes
+        para o Laboratório 2. O arquivo original é um arquivo WAV com uma taxa de amostragem de 320.000 amostras por
+        segundo e pode ser escutado abaixo.
+      </Paragraph>
 
+      <TextAudio audio={ TwistOriginal } audioType='audio/wav'/>
+      <br/>
+      <TextImage image={Img1} imageNumber={1} subtitle='Espectrograma do áudio original utilizado'/>
 
-      <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Discussões</Typography>
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Alterando as taxas de amostragem</Typography>
+      <Paragraph>
+        Como primeiro passo para a exploração do áudio, foi aplicado um processamento que altera a codificação do áudio
+        para MP3, alterando também a taxa de amostragem do arquivo. Esse procedimento foi aplicado 5 vezes para que
+        fosse possível observar as mudanças de maneira mais clara. Os resultados podem ser observados abaixo:
+      </Paragraph>
+      <Typography variant='h6' textAlign='justify' mb={3} mt={5}>128K (MP3)</Typography>
+      <TextAudio audio={ Twist128k } audioType='audio/mp3'/>
+      <br/>
+      <TextImage image={Img2} imageNumber={2} subtitle='Espectrograma do áudio com taxa de amostragem de 128k'/>
+      <Typography variant='h6' textAlign='justify' mb={3} mt={5}>64K (MP3)</Typography>
+      <TextAudio audio={ Twist64k } audioType='audio/mp3'/>
+      <br/>
+      <TextImage image={Img3} imageNumber={3} subtitle='Espectrograma do áudio com taxa de amostragem de 64k'/>
+      <Typography variant='h6' textAlign='justify' mb={3} mt={5}>32K (MP3)</Typography>
+      <TextAudio audio={ Twist32k } audioType='audio/mp3'/>
+      <br/>
+      <TextImage image={Img4} imageNumber={4} subtitle='Espectrograma do áudio com taxa de amostragem de 32k'/>
+      <Typography variant='h6' textAlign='justify' mb={3} mt={5}>16K (MP3)</Typography>
+      <TextAudio audio={ Twist16k } audioType='audio/mp3'/>
+      <br/>
+      <TextImage image={Img5} imageNumber={5} subtitle='Espectrograma do áudio com taxa de amostragem de 16k'/>
+      <Typography variant='h6' textAlign='justify' mb={3} mt={5}>8K (MP3)</Typography>
+      <TextAudio audio={ Twist8k } audioType='audio/mp3'/>
+      <br/>
+      <TextImage image={Img6} imageNumber={6} subtitle='Espectrograma do áudio com taxa de amostragem de 8k'/>
+      <Paragraph>
+        É possível notar tanto visualmente, através dos espectogramas, quanto auditivamente, através dos áudios, que
+        quanto menor a taxa de amostragem, menor a qualidade do áudio. Isso ocorre pois a taxa de amostragem é
+        responsável por definir a quantidade de amostras por segundo que serão utilizadas para representar digitalmente
+        o sinal analógico, ou seja, quanto menor a taxa de amostragem, menor será a semelhança do sinal digital com o
+        sinal analógico original. Outra característica que pode ser observada é que quanto menor a taxa de amostragem,
+        menor é a intensidade do sinal, ou seja, o volume do áudio.
+      </Paragraph>
+      <Paragraph>
+        Nota-se também que quanto menor a taxa de amostragem, menor é o tamanho do arquivo. No entanto, como é possível
+        observar na Img. 7, isso ocorre apenas até a taxa de amostragem de 32k, pois a partir daí, o tamanho do arquivo
+        se mantém constante. Isso ocorre, provavelmente, pois após essa taxa de amostragem, o arquivo já está tão
+        comprimido que não é possível reduzir ainda mais o seu tamanho sem perder a qualidade do áudio.
+      </Paragraph>
+      <TextImage image={Img7} imageNumber={7} subtitle='Tamanho dos arquivos em função da taxa de amostragem'/>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Alterando a velocidade de reprodução</Typography>
+      <Paragraph>
+        Ainda utilizando a codificação MP3, foi aplicado um processamento que altera a velocidade de reprodução do
+        áudio, gerando um novo arquivo com a velocidade de reprodução 2 vezes maior que a original. O resultado pode ser
+        observado abaixo:
+      </Paragraph>
+      <TextAudio audio={ Twist128k2X } audioType='audio/mp3'/>
+
+      <Paragraph>
+        É possível notar que o áudio ficou mais rápido, porém não é possível notar uma diferença na qualidade do áudio.
+        Isso ocorre pois a velocidade de reprodução não altera a qualidade do áudio, apenas a sua velocidade.
+      </Paragraph>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Alterando o formato do arquivo</Typography>
+      <Paragraph>
+        Por fim, foi aplicado um processamento que converte o arquivo MP3 original para o formato OGG, utilizando o
+        codec de áudio libvorbis. O resultado pode ser observado abaixo:
+      </Paragraph>
+      <TextAudio audio={ TwistOGG } audioType='audio/ogg'/>
 
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>

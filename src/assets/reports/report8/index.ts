@@ -5,6 +5,7 @@ export { default as Img3 } from './Img3.png';
 export { default as Img4 } from './Img4.png';
 export { default as Img5 } from './Img5.png';
 export { default as Img6 } from './Img6.png';
+export { default as Img7 } from './Img7.jpg';
 export { default as TwistOriginal } from './original_audio.wav';
 export { default as Twist128k } from './twist_final128k.mp3';
 export { default as Twist64k } from './twist_final64k.mp3';
