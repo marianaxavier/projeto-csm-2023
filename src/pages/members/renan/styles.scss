@@ -1,0 +1,99 @@
+.renan {
+  margin-top: 10px;
+
+  body{
+	    font-family:Arial, Helvetica, sans-serif;
+	    font-size: 18px;
+	}
+
+  #cabecalho {
+    height: 150px;
+    width: 95%;
+    background-color: lightseagreen;
+    text-align: center;
+    margin: 0 auto;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    padding: 10px;
+  }
+
+  #foto {
+    height: 570px;
+    width: 45%;
+    background-color:Gray;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    float: left;
+    padding: 10px;
+	}
+
+  #principal {
+    height: 570px;
+    width: 45%;
+    margin: auto auto;
+    background-color:lightgray;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    float: right;
+    padding: 10px;
+	}
+
+  #Audio {
+    height: 250px;
+    width: 95%;
+    background-color:lightseagreen;
+    clear: both;
+    margin: 1% auto;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    padding: 10px;
+	}
+
+  #Video {
+    height: 400px;
+    width: 95%;
+    margin: 1% auto;
+    background-color: #2F4F4F;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    padding: 10px;
+	}
+
+  #Video_Youtube{
+    height: 550px;
+    width: 95%;
+    margin: 1% auto;
+    background-color: peru;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  black;
+    padding: 10px;
+	}
+
+  #PDF{
+      height: 450px;
+	    width: 95%;
+      margin: 0 auto;
+	    background-color: Gray;
+	    border-width: 10px;
+	    border-style: solid;
+      border-color:  black;
+      padding: 10px;
+	}
+
+  #Exercícios{
+    padding-left: 30px;
+    margin-top: 25px;
+	}
+}
