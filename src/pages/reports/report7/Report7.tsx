@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography } from '@mui/material';
 import Paragraph from '../../../components/paragraph';
 import TextAudio from '../../../components/text-audio';
-import { AudioJoao, AudioMariana, AudioRenan, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, AudioMarcelo } from '../../../assets/reports/report7';
+import { AudioJoao, AudioMariana, AudioRenan, Img1, Img10, Img11, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, AudioMarcelo, Img24, Img25, Img26, Img27, Img28, Img29, Img30, AudioAdailson} from '../../../assets/reports/report7';
 import TextImage from '../../../components/text-image';
 
 const Report7 = () => {
@@ -176,6 +176,22 @@ const Report7 = () => {
       <TextImage image={Img21} imageNumber={21} subtitle='Gráfico do pitch do áudio do Marcelo.'/>
       <TextImage image={Img22} imageNumber={22} subtitle='Gráfico do espectrograma junto com a linha da frequência fundamental do áudio do Marcelo.'/>
       <TextImage image={Img23} imageNumber={23} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio do Marcelo.'/>
+
+      <Typography variant='h5' textAlign='justify' mb={3} mt={5}>Adailson</Typography>
+      <Paragraph>
+        Por fim, aplicou-se os processamentos citados em um áudio gravado pelo Adailson, que se encontram a seguir:
+      </Paragraph>
+      <TextAudio audio={AudioAdailson} audioType='audio/wav'/><br/>
+      <TextImage image={Img24} imageNumber={24} subtitle='Gráfico do sinal do áudio gravado pelo Adailson.'/>
+      <Paragraph>
+        Os resultados encontrados estão a seguir:
+      </Paragraph>
+      <TextImage image={Img25} imageNumber={25} subtitle='Gráfico da energia do áudio gravado pelo Adailson.'/>
+      <TextImage image={Img26} imageNumber={26} subtitle='Gráfico da frequência fundamental ao longo do tempo no áudio do Adailson.'/>
+      <TextImage image={Img27} imageNumber={27} subtitle='Gráfico do pitch do áudio do Adailson.'/>
+      <TextImage image={Img28} imageNumber={28} subtitle='Gráfico do espectrograma junto com a linha da frequência fundamental do áudio do Adailson.'/>
+      <TextImage image={Img29} imageNumber={29} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio do Adailson.'/>
+      <TextImage image={Img30} imageNumber={30} subtitle='Gráfico do espectro de frequência dos segmentos de não-voz do áudio do Adailson.'/>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>
       <Paragraph>
