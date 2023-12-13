@@ -199,8 +199,8 @@ const Report7 = () => {
         de segmento. Os gráficos gerados podem ser obervados nas Imgs. 10 e 11, a seguir:
       </Paragraph>
 
-      <TextImage image={Img36} imageNumber={29} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio da Mariana.'/>
-      <TextImage image={Img37} imageNumber={30} subtitle='Gráfico do espectro de frequência dos segmentos de não-voz do áudio da Mariana.'/>
+      <TextImage image={Img36} imageNumber={29} subtitle='Gráfico do espectro de frequência dos segmentos de voz do áudio do Adailson.'/>
+      <TextImage image={Img37} imageNumber={30} subtitle='Gráfico do espectro de frequência dos segmentos de não-voz do áudio do Adailson.'/>
 
       <Typography variant='h4' textAlign='justify' mb={3} mt={5}>Conclusão</Typography>
       <Paragraph>
