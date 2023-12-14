@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-csm-2023/static/css/main.7f04856d.css",
-    "main.js": "/projeto-csm-2023/static/js/main.b831a9b4.js",
+    "main.js": "/projeto-csm-2023/static/js/main.daacc736.js",
     "static/media/explicacao.mp4": "/projeto-csm-2023/static/media/explicacao.ce9eb3cb93ea8cd6d6ff.mp4",
     "static/media/audio_X2.wav": "/projeto-csm-2023/static/media/audio_X2.3a4594e96d01571dc938.wav",
     "static/media/audio_4.wav": "/projeto-csm-2023/static/media/audio_4.a9577a0d0b6cb765636d.wav",
@@ -200,10 +200,10 @@
     "static/media/swirl-arrow-top-right-icon.webp": "/projeto-csm-2023/static/media/swirl-arrow-top-right-icon.88935d97bb380b424781.webp",
     "index.html": "/projeto-csm-2023/index.html",
     "main.7f04856d.css.map": "/projeto-csm-2023/static/css/main.7f04856d.css.map",
-    "main.b831a9b4.js.map": "/projeto-csm-2023/static/js/main.b831a9b4.js.map"
+    "main.daacc736.js.map": "/projeto-csm-2023/static/js/main.daacc736.js.map"
   },
   "entrypoints": [
     "static/css/main.7f04856d.css",
-    "static/js/main.b831a9b4.js"
+    "static/js/main.daacc736.js"
   ]
 }
